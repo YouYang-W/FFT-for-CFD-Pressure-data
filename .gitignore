@@ -1,0 +1,14 @@
+*.cas*
+*.dat*
+*.msh
+*.jou
+*.log
+
+# 但排除（保留）example 文件夹下的测试数据
+!/example/sample_pressure.out
+
+# --- 忽略 MATLAB 产生的临时文件 ---
+*.asv
+*.m~
+__pycache__/
+.DS_Store
